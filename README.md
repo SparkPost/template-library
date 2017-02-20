@@ -4,7 +4,7 @@ This repository contains a selection of prebuilt email templates designed for us
 
 Each template is available as HTML, text and sample substitution data. You can also import a Postman collection containing all templates as SparkPost REST API requests.
 
-[![Run in Postman](https://s3.amazonaws.com/postman-static/run-button.png)](SparkPostEmailTemplates.postman_collection.json)
+[![Run in Postman](https://s3.amazonaws.com/postman-static/run-button.png)](SparkPost-Templates.postman_collection.json)
 
 # Regenerating The Postman Collection
 
