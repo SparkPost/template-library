@@ -1,0 +1,24 @@
+SparkPost Email Template Features
+
+Insert substitution variables: I like {{flavor}} ice cream.
+
+Make some content conditional: Your ice cream is {{if flavor == "strawberry"}} pink {{else}} cream{{end}}-colored.
+
+Iterate through items in a list:
+{{each desserts}}
+- {{loop_var}}
+{{end}}
+
+Inserting text using variables:
+{{{setMenuText}}}
+
+Inserting text containing variables:
+{{render_dynamic_content(dynamic_plain.setMenuTextWithSpecial)}}
+
+Controlling links:
+- Named links for reporting: https://www.sparkpost.com/[[data-msys-linkname="SparkPost"]]
+
+- Labelling an unsubscribe linke: http://www.example.com/unsubs[[data=msys-unsubscribe="1"]]
+
+- Controlling link tracking for a single link: https://www.example.com/[[data-msys-clicktrack="0"]]
+

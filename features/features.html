@@ -1,0 +1,27 @@
+<html>
+  <body>
+    <h1>SparkPost Email Template Features</h1>
+    <p>Insert substitution variables: I like {{flavor}} ice cream.</p>
+    <p>Make some content conditional: Your ice cream is {{if flavor == "strawberry"}} pink {{else}} cream{{end}}-colored.</p>
+    <p>Iterate through items in a list:
+      <ul>
+        {{each desserts}}
+        <li>{{loop_var}}</li>
+        {{end}}
+      </ul>
+    </p>
+    <p>Inserting HTML using variables:
+      {{{setMenuHTML}}}
+    </p>
+    <p>Inserting HTML containing variables:
+      {{render_dynamic_content(dynamic_html.setMenuHTMLWithSpecial)}}
+    </p>
+    <p>Controlling links:
+      <ul>
+        <li>Named links for reporting: <a data-msys-linkname="SparkPost" href="https://www.sparkpost.com/">SparkPost</a></li>
+        <li>Labelling an unsubscribe linke: <a data=msys-unsubscribe="1" href="http://www.example.com/unsubs">unsubscribe</a></li>
+        <li>Controlling link tracking for a single link: <a data-msys-clicktrack="0" href="https://www.example.com/">don't track this</a></li>
+      </ul>
+    </p>
+  </body>
+</html>

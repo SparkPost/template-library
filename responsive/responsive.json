@@ -1,0 +1,20 @@
+{
+  "substitution_data": {
+    "my_trends": {
+    },
+    "dynamic_html": [
+      {
+        "url": "",
+        "title": "title",
+        "image": "",
+        "sub": "subtitle"
+      },
+      {
+        "url": "",
+        "title": "title",
+        "image": "",
+        "sub": "subtitle"
+      }
+    ]
+  }
+}

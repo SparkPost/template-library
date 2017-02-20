@@ -1,0 +1,15 @@
+{
+ "substitution_data": {
+  "flavor": "chocolate",
+  "desserts": ["ice cream", "profiteroles", "blancmange", "bread pudding"],
+  "setMenuHTML": "<ol><li><b>Soup</b></li><li>Steak frites</li><li>Ice cream</li></ol>",
+  "setMenuText": "-Soup\n-Steak frites\n-Ice cream",
+  "specialDish": "Tête de veau",
+  "dynamic_html": {
+      "setMenuHTMLWithSpecial": "<ol><li><b>Special: {{specialDish}}</b></li><li>Soup</li><li>Steak frites</li><li>Ice cream</li></ol>"
+  },
+  "dynamic_plain": {
+    "setMenuTextWithSpecial": "Special: {{specialDish}}\nSoup, Steak frites and Ice cream"
+   }
+ }
+}
