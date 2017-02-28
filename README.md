@@ -1,6 +1,6 @@
 # SparkPost Email Template Library
 
-This repository contains a selection of prebuilt email templates designed for use with SparkPost. Some, like the [features template](features/) are meant to showcase SparkPost's personalisation capabilities. Others are starting points for your own email. For example, [here's a simple responsive template](responsive/).
+This repository contains a selection of prebuilt email templates designed for use with SparkPost. Some, like the [features template](templates/features/) are meant to showcase SparkPost's personalisation capabilities. Others are starting points for your own email. For example, [here's a simple responsive template](templates/responsive/).
 
 Each template is available as HTML, text and sample substitution data. You can also import a Postman collection containing all templates as SparkPost REST API requests.
 

@@ -89,7 +89,7 @@ if __name__ == '__main__':
         nhtmls = len(glob.glob('%s/*.html' % path))
         ntxts = len(glob.glob('%s/*.txt' % path))
         return nhtmls>0 or ntxts>0
-    subdirs = os.listdir('.')
+    subdirs = map(lambda p: 'templates/%s' % p, os.listdir('./templates/'))
     tplpaths = filter(lambda p: os.path.isdir(p) and not p.startswith('.') and istemplatedir(p), subdirs)
     collection_json = pretty_json(build_collection(tplpaths))
     open(COLLECTION_FILENAME, 'w').write(collection_json)
