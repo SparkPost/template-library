@@ -1,0 +1,21 @@
+{
+ "substitution_data": {
+     "articles": [
+         {
+             "path": "article-1",
+             "title": "Article One",
+             "abstract": "Prosciutto short ribs ball tip cow venison pork chop beef ribs jerky porchetta frankfurter "
+         },
+         {
+             "path": "article-2",
+             "title": "Article Two",
+             "abstract": "Prosciutto short ribs ball tip cow venison pork chop beef ribs jerky porchetta frankfurter "
+         },
+         {
+             "path": "article-3",
+             "title": "Article Three",
+             "abstract": "Prosciutto short ribs ball tip cow venison pork chop beef ribs jerky porchetta frankfurter "
+         }
+      ]
+ }
+}

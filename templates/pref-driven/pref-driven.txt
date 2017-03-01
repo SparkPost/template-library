@@ -1,0 +1,10 @@
+{{each recip_prefs}}
+**{{loop_var.name}}**
+
+{{each loop_var.ids}}
+*{{articles[loop_var].headline}}*
+{{articles[loop_var].content}}
+{{articles[loop_var].url}}
+
+{{end}}
+{{end}}

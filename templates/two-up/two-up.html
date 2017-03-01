@@ -1,0 +1,16 @@
+<table>
+  <tr>
+    {{ each articles }}
+    <td style="background: lightgray"><a href="http://example.com/{{{loop_var.path}}}">{{ loop_var.title }}</a>
+    <p>{{loop_var.abstract}}</p>
+    </td>
+      {{ if loop_index % 2 == 0 }}
+  </tr>
+  <tr>
+      {{ end }}
+    {{ end }}
+  {{ if #articles % 2 == 1 }}
+    <td style="background: lightgray"></td>
+  {{ end }}
+  </tr>
+</table>

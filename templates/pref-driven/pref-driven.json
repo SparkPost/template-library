@@ -1,0 +1,47 @@
+{
+ "substitution_data": {
+     "recip_prefs": [
+         {"name": "Pirate Articles", "ids": [1,3]},
+         {"name": "Dessert Money", "ids": [6, 5]}
+     ],
+     "articles": [
+         {
+             "headline": "Tech: Pirates!",
+             "url": "https://sparkpost.com/article-1",
+             "content": "Row scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog."
+         },
+         {
+             "headline": "Tech: Bacon!",
+             "url": "https://sparkpost.com/article-2",
+             "content": "Spicy jalapeno bacon ipsum dolor amet aliqua andouille qui anim ribeye sed. Pork loin pork belly brisket, short loin tongue qui corned beef enim."
+         },
+         {
+             "headline": "Money: The Price Of Pirates",
+             "url": "https://sparkpost.com/article-3",
+             "content": "Row scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog."
+         },
+         {
+             "headline": "Money: Emerging Bacon Markets",
+             "url": "https://sparkpost.com/article-4",
+             "content": "Spicy jalapeno bacon ipsum dolor amet aliqua andouille qui anim ribeye sed. Pork loin pork belly brisket, short loin tongue qui corned beef enim."
+         },
+         {
+             "headline": "Shorting Cupcakes To Combat Inflation",
+             "url": "https://sparkpost.com/article-5",
+             "content": "Cupcake ipsum dolor sit amet cake cheesecake candy canes toffee. Gummies cotton candy lollipop cotton candy. Sesame snaps gummies pie jujubes halvah pastry."
+         },
+         {
+             "headline": "The Vanilla Pod Futures Market",
+             "url": "https://sparkpost.com/article-6",
+             "content": "Cupcake ipsum dolor sit amet cake cheesecake candy canes toffee. Gummies cotton candy lollipop cotton candy. Sesame snaps gummies pie jujubes halvah pastry."
+         }
+     ],
+     "dynamic_html": [
+         "https://sparkpost.com/article-1",
+         "https://sparkpost.com/article-2",
+         "https://sparkpost.com/article-3"
+     ]
+ },
+ "metadata": {},
+ "options": {}
+}

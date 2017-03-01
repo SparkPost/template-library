@@ -53,7 +53,7 @@ def build_collection(tplpaths):
     return dict(info=infoblock(), item=items(tplpaths))
 
 def infoblock():
-    return dict(name='SparkPost Example Templates',
+    return dict(name='SparkPost Sample Templates',
         _postman_id=str(uuid.uuid1()),
         schema='https://schema.getpostman.com/json/collection/v2.0.0/collection.json')
 
@@ -61,9 +61,11 @@ def items(tplpaths):
     items = []
     for path in tplpaths:
         tpl = Template(path)
-        items.append(template_create_req(tpl))
-        items.append(transmissions_create_req(tpl))
+        items.append(folder(tpl.name.title(), "", [template_create_req(tpl), transmissions_create_req(tpl)]))
     return items
+
+def folder(name, desc, items):
+    return dict(name=name, description=desc, item=items)
 
 def template_create_req(tpl):
     return dict(name='Create template: %s' % tpl.name,
